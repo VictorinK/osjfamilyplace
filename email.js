@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 
 const authEmail = process.env['AUTH_EMAIL']
-//const receiver = 'monaiwillett@gmail.com';
+
 
 module.exports = {
   //Method that will send a email to admin from the contact us form 
